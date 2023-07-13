@@ -1,0 +1,52 @@
+$default: #191919;
+$accent: #436372;
+$accent-title: #243f4d;
+$accent-btn: #a3bbc8;
+$accent-bg: #fcd7b6;
+$find-color: #edf1f4;
+$bg: #fef7f0;
+$greyfont: #7b7b7b;
+
+%dmsans-700 {
+	font-family: 'DMSans-Bold', sans-serif;
+	font-weight: 700;
+}
+
+%dmsans-500 {
+	font-family: 'DMSans-Medium', sans-serif;
+	font-weight: 500;
+}
+
+%dmsans-400 {
+	font-family: 'DMSans-Regular', sans-serif;
+	font-weight: 400;
+}
+
+%poppins-700 {
+	font-family: 'Poppins-Bold', sans-serif;
+	font-weight: 700;
+}
+
+%rubik-500 {
+	font-family: 'Rubik-Medium', sans-serif;
+	font-weight: 500;
+}
+
+%rubik-400 {
+	font-family: 'Rubik-Regular', sans-serif;
+	font-weight: 400;
+}
+
+%btn {
+	background-color: $accent-btn;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+%title {
+	@extend %dmsans-700;
+	font-size: 36px;
+	color: $default;
+	text-align: center;
+}
